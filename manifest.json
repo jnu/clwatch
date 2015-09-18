@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "Craigslist Watcher",
+    "version": "0.1",
+    "author": "Joseph Nudell",
+    "browser_action": {
+
+    },
+    "permissions": [
+        "activeTab",
+        "notifications",
+        "tabs",
+        "http://*.craigslist.org/"
+    ],
+    "background": {
+        "scripts": ["js/watcher.js"]
+    }
+}
